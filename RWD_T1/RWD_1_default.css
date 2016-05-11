@@ -1,0 +1,27 @@
+/*初始化*/
+h1,h2,h3,h4,h5,p,body{
+    margin: 0;
+    padding: 0;
+}
+            
+/*高整字距,以及降低字黑度*/
+p{
+    color: #444;
+    line-height: 1.5;
+}
+
+/*指定字型 同設定設定值不同,以權重決定*/
+body{
+    font-family: tahoma;
+}
+
+/*解決父元素高度消失*/
+.clearfix::after{
+    content: "";/*填入空白*/
+    display: block;/*改行內為區塊屬性*/
+    clear: both;/*清除浮動影響*/
+}
+/*全版顯示*/
+.full{
+    width:100%;
+}

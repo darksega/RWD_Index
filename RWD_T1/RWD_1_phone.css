@@ -1,0 +1,145 @@
+/*區域顯示*/
+            .fixed{
+                width:100%;
+                margin: auto;
+            }
+            
+            /*區域顯示*/
+            nav ul {
+                margin: 0;
+                padding: 0;
+               /* float: right;*/
+            }
+            
+            /*選單外框 項目排序,文字對齊*/
+            nav li {
+                /*float: left;*/
+                list-style: none;
+                background-color: #19e2e2;
+            }
+            
+            /*選單個體 尺寸,配色,淡出入效果*/
+            nav a {
+                color:#fff;
+                text-decoration: none;
+                /*font-family: tahoma;*/
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                /* padding-left: 20px;*/
+                /* padding-right: 20px;*/
+                text-align: center;
+                transition: all .3s;
+            }
+            
+            /*選取效果*/
+            nav a:hover {
+                background-color: #666;
+            }
+            
+            /*Logo規格*/
+            .logo {
+                /*float:left;*/
+                width: 40px;
+                height: 40px;
+                background-color: #fa0;
+            }
+            
+            /*底圖規格*/
+            header {
+                height: 300px;
+                background-image: url(background_2.jpg);
+                background-size:cover;
+                background-position:top;
+            }
+            
+            #about{
+                padding-top: 100px;
+                padding-bottom: 100px;
+                background-color: #19e2e2;
+            }
+            
+            #about .box{
+                width:90%;
+                margin: auto;             
+            }
+            
+            #about h1{
+                margin-bottom: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            
+            
+            #gallery .box{
+                width: 100%;
+/*                height: 300px;*/
+/*                float: left;*/
+                overflow: hidden;
+
+            }
+            
+            #gallery .box img{
+                width: 100%;
+/*                height: 600px;*/
+            }    
+            
+            
+            #Obj4{
+                background-color: #333;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            
+            #Obj4 .box{
+                width: 260px;
+                height: 270px;
+/*                float: left;*/
+                overflow: hidden;
+/*
+                margin-left: 15px;
+                margin-right: 15px;
+*/
+                margin: auto;/*自動邊界*/  
+                margin-bottom: 30px;/*與下圖保持距離*/   
+                border-radius:50%;
+                border: 5px solid #fff;
+                box-shadow: 5px 5px 5px #000;
+            }
+            
+            #Obj4 .box img{
+                width: 100%;
+                
+            }
+                        
+            footer {
+                background-color: #333;
+                padding-top: 20px;
+                padding-bottom: 20px;        
+            }
+            
+            footer .copyright{
+/*                float: left;*/
+                text-align: center;
+            }
+            
+            footer .copyright p{
+                color:#fff;
+            }
+            
+            footer .sns{
+/*                float:right;*/
+                text-align: center;
+            }
+            
+            footer .sns a {
+                color: #ff0000;
+                text-decoration: none;
+                margin-left: 15px;
+                transition: all .3s
+            }
+            
+            footer .sns a:hover {
+                color: #aaa;
+            }
